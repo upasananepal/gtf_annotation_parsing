@@ -8,7 +8,7 @@
 ##
 ## Date Created: 2024-01-05
 ##
-## Email: upasana.nepal@nih.gov
+## Email: upasana.nepal2@gmail.com
 ##
 ## ---------------------------
 ##
@@ -16,6 +16,7 @@
 ##      : Output contains gene type, gene name and Ensembl ID
 ##
 ## ---------------------------
+
 #read the annotation file
 annotation <- read.csv("gencode.v44.chr_patch_hapl_scaff.annotation.gtf", skip= 5, sep = "\t", header = F)
 annotation <- annotation[annotation$V3 %in% c("exon", "gene","transcript"),]
